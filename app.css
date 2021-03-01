@@ -1,0 +1,36 @@
+body {
+  background-color: darksalmon;
+  margin: 0;
+}
+
+.fill {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  background-color: white;
+  margin: 10px;
+  border: 3px solid salmon;
+}
+
+.hold {
+  border: solid #ccc 4px;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none;
+}
